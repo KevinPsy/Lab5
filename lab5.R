@@ -27,6 +27,7 @@ smallest <- function(vect){
 
   mini=vect[1]
   n = length(vect)
+  
   for (i in 2:n) {
     if(vect[i]<mini){
       mini = vect[i]
@@ -40,5 +41,6 @@ smallest <- function(vect){
 }
 
 smallest(c(5,1,3,4,5))
+
 smallest(c(0,1,8,0,5,-1,8,4,-1,-1))
 
