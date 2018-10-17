@@ -21,6 +21,7 @@ for(j in 1:n){
   
 }
 
+bet(1000)
 bet(10000)
 
 smallest <- function(vect){
